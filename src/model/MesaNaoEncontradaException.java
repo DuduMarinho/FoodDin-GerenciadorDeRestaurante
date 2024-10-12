@@ -1,5 +1,5 @@
 // src/exceptions/MesaNaoEncontradaException.java
-package exceptions;
+package model;
 
 public class MesaNaoEncontradaException extends Exception {
     public MesaNaoEncontradaException(String mensagem) {

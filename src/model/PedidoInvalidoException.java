@@ -1,5 +1,5 @@
 // src/exceptions/PedidoInvalidoException.java
-package exceptions;
+package model;
 
 public class PedidoInvalidoException extends Exception {
     public PedidoInvalidoException(String mensagem) {

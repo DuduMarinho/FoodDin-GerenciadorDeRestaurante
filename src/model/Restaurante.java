@@ -1,7 +1,5 @@
-// src/model/Restaurante.java
 package model;
 
-import exceptions.MesaNaoEncontradaException;
 import java.util.List;
 
 public class Restaurante {
@@ -11,6 +9,7 @@ public class Restaurante {
         this.mesas = mesas;
     }
 
+    // Método para encontrar uma mesa específica pelo número
     public Mesa encontrarMesa(int numeroMesa) throws MesaNaoEncontradaException {
         for (Mesa mesa : mesas) {
             if (mesa.getNumero() == numeroMesa) {
