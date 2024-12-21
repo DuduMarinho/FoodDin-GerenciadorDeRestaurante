@@ -24,9 +24,9 @@ O projeto é organizado em classes, cada uma representando um componente do sist
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java SE**: Linguagem principal do projeto.
+- **Java SE**: Linguagem principal 
 - **Maven (opcional)**: Para gerenciar dependências e organizar o projeto.
-- **IDE**: Como Eclipse, IntelliJ IDEA ou NetBeans.
+- **IDE**: Visual Studio Code e InteliJ
 
 ---
 
