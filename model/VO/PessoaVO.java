@@ -8,6 +8,8 @@ public class PessoaVO {
     private String email;
     private String endereco;
 
+    public PessoaVO() {}
+
     public PessoaVO(Integer id, String nome, String cpf, String telefone, String email, String endereco) {
         this.id = id;
         this.nome = nome;

@@ -14,7 +14,6 @@ public class ContaVO {
 
     public ContaVO() {}
 
-    // Getters e Setters
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
 

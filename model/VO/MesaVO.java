@@ -7,6 +7,8 @@ public class MesaVO {
     private String status;
     private FuncionarioVO funcionario;
 
+    public MesaVO() {}
+
     public MesaVO(Integer id, Integer numero, Integer capacidade, String status, FuncionarioVO funcionario) {
         this.id = id;
         this.numero = numero;
