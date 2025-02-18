@@ -9,6 +9,8 @@ public class FuncionarioVO extends PessoaVO {
     private LocalDateTime dataContratacao;
     private String turno;
 
+    public FuncionarioVO() {}
+
     public FuncionarioVO(Integer id, String nome, String cpf, String telefone, String email,
                          String endereco, String cargo, BigDecimal salario,
                          LocalDateTime dataContratacao, String turno) {
